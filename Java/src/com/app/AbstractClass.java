@@ -1,7 +1,7 @@
 package com.app;
 
 //By creating a class Abstract Class we cannot create Object of it but can create reference of it and if a method is abstract then that class should be abstract 
-//if a Parent Class is Abstract and has a Abstract Method then the derived class must define the same method name otherwise it becomes abstract
+//if a Parent Class is Abstract and has a abstract method then the Derived Class must define the same method name otherwise it becomes abstract
 
 abstract class Animal{
 	
@@ -31,7 +31,7 @@ public class AbstractClass {
 
 	public static void main(String[] args) {
 		
-		Animal anm1 = new Lion();
+		Animal anm1 = new Lion(); // Cannot create Object of Animal
 		anm1.animalSound();
 		anm1.sleep();
 		
