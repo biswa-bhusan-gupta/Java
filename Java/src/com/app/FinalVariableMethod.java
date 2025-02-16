@@ -3,6 +3,10 @@ package com.app;
 
 //If a Variable becomes Final its value becomes constant throughout that Class
 
+// Final Variable -> Value cannot be changed, once assigned
+// Final Method -> Cannot be overriden
+// Final Class -> Cannot be inherited
+
 
 class Final1{
 	
