@@ -6,7 +6,7 @@ class Alvin{
 	int b;
 	static int value,Data; // Static Variables are Variables that stores same values for all the objects
 	
-	// Static Method : Loads when a class is called
+	// Static Method : Loads when a class is called  --> It can be called without creating any object, It allows access to static variables and methods
 	static {     
 		Data=25;
 	}
