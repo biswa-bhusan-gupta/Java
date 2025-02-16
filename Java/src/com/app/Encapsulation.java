@@ -1,6 +1,7 @@
 package com.app;
 
-//Encapsulation : Data Members are kept Private(Hiding Sensitive Information from User) and are accessed by Public Member Functions
+//Encapsulation : Data Members are kept Private(Hiding Sensitive Information from User) and are accessed by Public Member Functions, basically protects the data from direct modification
+// --> Keep the Data Variables as private, Using public getter and setter methods to access and update the data
 
 class Encaps{
 	
