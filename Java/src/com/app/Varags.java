@@ -2,7 +2,7 @@ package com.app;
 
 class Smith{
 	
-	public int add(int ... i) {
+	public int add(int... i) {
 		int sum=0;
 		
 		for(int n:i) {
