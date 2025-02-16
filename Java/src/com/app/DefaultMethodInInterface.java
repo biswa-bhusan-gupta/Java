@@ -3,7 +3,7 @@ package com.app;
 interface App1{
 	
 	void get1();
-	default void get2() {
+	default void get2() {   --> It does not force implementing classes to override the method
 		System.out.println("In Get2");
 	}
 	
